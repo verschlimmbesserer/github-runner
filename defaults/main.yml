@@ -1,2 +1,15 @@
 ---
-# defaults file for template
+
+github_runner_api_url: "https://api.github.com/orgs/ansible-roles-verschlimmbesserer/actions/runners/registration-token"
+github_token: ""
+github_runner_version: ""
+github_runner_install_dir: ""
+
+github_runner_os:
+  darwin: osx
+  linux: linux
+  win32nt: windows
+
+github_runner_arch:
+  arm64: arm64
+  x86_64: x64
